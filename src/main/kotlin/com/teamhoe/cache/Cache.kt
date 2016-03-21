@@ -1,9 +1,11 @@
+package com.teamhoe.cache
+
 import java.util.*
 
 /**
  * Created by Eric on 3/20/2016.
  */
-class Cache<K,V>(val evictionPolicy:Cache.EvictionPolicy<K>,val maximumCapacity:Int,loadFactor:Float = 0.75F):MutableMap<K,V>
+class Cache<K,V>(val evictionPolicy:EvictionPolicy<K>,val maximumCapacity:Int,loadFactor:Float = 0.75F):MutableMap<K,V>
 {
     private val underlyingMap = HashMap<K,V>(maximumCapacity,loadFactor)
 

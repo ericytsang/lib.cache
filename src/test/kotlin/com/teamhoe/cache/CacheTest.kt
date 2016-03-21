@@ -1,3 +1,7 @@
+package com.teamhoe.cache
+
+import com.teamhoe.cache.Cache
+import com.teamhoe.cache.LruEvictionPolicy
 import org.junit.Test
 
 /**
