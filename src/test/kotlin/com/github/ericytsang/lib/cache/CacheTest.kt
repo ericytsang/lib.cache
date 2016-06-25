@@ -1,7 +1,5 @@
-package com.teamhoe.cache
+package com.github.ericytsang.lib.cache
 
-import com.teamhoe.cache.Cache
-import com.teamhoe.cache.LruEvictionPolicy
 import org.junit.Test
 
 /**

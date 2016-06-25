@@ -1,4 +1,4 @@
-package com.teamhoe.cache
+package com.github.ericytsang.lib.cache
 
 import java.util.*
 
